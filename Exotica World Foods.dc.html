@@ -976,7 +976,7 @@ class Component extends DCLogic {
     if (drawerClose) drawerClose.addEventListener('click', closeDrawer);
     root.querySelectorAll('.exo-drawer-link').forEach(a => a.addEventListener('click', closeDrawer));
 
-    // ---- TAB BAR scrollspy ----
+    // ---- TAB BAR scrollspy ---
     const tabs = Array.from(root.querySelectorAll('.exo-tab'));
     const setTab = (name) => {
       tabs.forEach(t => {
